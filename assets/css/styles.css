@@ -21,7 +21,7 @@ p#p-jokes {
     color: #e8e6e3;
     font-size: 18px;
     font-weight: 300;
-    letter-spacing: .1rem;
+    letter-spacing: 0.1rem;
     text-align: center;
 }
 section#section-jokes {
@@ -34,8 +34,8 @@ section#section-jokes {
     border-radius: 20px;
     width: 500px;
     padding: 30px;
-    -webkit-box-shadow: 0px 0px 10px 10px #E8E6E345; 
-box-shadow: 0px 0px 10px 10px #E8E6E345;
+    -webkit-box-shadow: 0px 0px 10px 10px #e8e6e345;
+    box-shadow: 0px 0px 10px 10px #e8e6e345;
 }
 button#get-joke {
     background: #f15a24;
