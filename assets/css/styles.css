@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+}
+body {
+    background-color: #131516;
+    width: 100%;
+    height: 100vh;
+}
+h1 {
+    color: #f15a24;
+    font-weight: 900;
+    font-size: 32px;
+}
+p#p-jokes {
+    color: #e8e6e3;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: .1rem;
+    text-align: center;
+}
+section#section-jokes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 400px;
+}
+button#get-joke {
+    background: #f15a24;
+    border: 0;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+}
